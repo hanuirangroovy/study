@@ -18,7 +18,7 @@ def bfs(x,y):
                 continue
             if g[newx][newy] == 1:
                 g[newx][newy] = g[x][y] + 1
-                queue.append((newx,newy))
+                queue.append((newx,n
     return g[n-1][m-1]
 
 n,m = map(int, input().split())
